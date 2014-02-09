@@ -36,7 +36,7 @@
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container-narrow">
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <img src="{{ HOME_PATH }}/images/acorn_winter_logo.png" alt="Acorn logo" style="float:left; margin-right: .5em;" /><a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <ul class="nav">
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
@@ -53,14 +53,12 @@
       </div>
       <hr>
       <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+	<p style="text-align: center;"><img src="/images/88x31.png" alt="Creative Commons License image" /><br />
+All publicly accessible content on this site is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 4.0 Unported License. 
         </p>
       </footer>
 
     </div>
 
-    {% include JB/analytics %}
   </body>
 </html>
