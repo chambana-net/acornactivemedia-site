@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Acorn Active Media Foundation
-tagline: Engaging in software, website, and technical development in support of the global justice movement.
+title: Our Work
 ---
 ## Our Services
 People often know what they want to see happen, but not how to get there. Acorn has helped numerous individuals and organizations accomplish their IT development goals. Sometimes, a product or piece of software already exists that will meet your needs; Acorn is not afraid to pass up on a job and recommend a solution that will save you money. Our primary goal is to support those working to build and sustain a more just world -- and we're committed both to fulfilling our clients needs and to lowering their IT development costs.

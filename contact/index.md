@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Acorn Active Media Foundation
-tagline: Engaging in software, website, and technical development in support of the global justice movement.
+title: Contact Us
 ---
-## Contact
 <p>E-Mail: acorn@acornactivemedia.com</p>
 
 <p>Postal Mail:<br />

@@ -36,11 +36,13 @@
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container-narrow">
-          <img src="{{ HOME_PATH }}/images/acorn_winter_logo.png" alt="Acorn logo" style="float:left; margin-right: .5em;" /><a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <img src="{{ HOME_PATH }}images/acorn_winter_logo.png" alt="Acorn logo" style="float:left; margin-right: .5em;" /><a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <ul class="nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
+		<li><a href="/work">Our Work</a></li>
+		<li><a href="/contact">Contact</a></li>
+            <!-- {% assign pages_list = site.pages %} -->
+            <!-- {% assign group = 'navigation' %} -->
+            <!-- {% include JB/pages_list %} -->
           </ul>
         </div>
       </div>
